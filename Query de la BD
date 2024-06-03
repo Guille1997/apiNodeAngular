@@ -1,0 +1,13 @@
+CREATE TABLE tabla_ejemplo (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255),
+    status INT,
+    fecha DATETIME
+);
+
+INSERT INTO tabla_ejemplo (nombre, status, fecha) VALUES
+('Juan Pérez', 1, '2024-06-01 08:00:00'),
+('María Rodríguez', 0, '2024-06-02 10:30:00'),
+('José García', 1, '2024-06-03 12:15:00'),
+('Ana Martínez', 1, '2024-06-04 14:45:00'),
+('Carlos López', 0, '2024-06-05 16:20:00');
